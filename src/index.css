@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--text-color: #000853;
+	--input-border: #cbb6e5;
+	--input-active: #761be4;
+	--error-color: #ed4545;
+	--inactive-button: #cbb6e5;
+	--default-button: #761be4;
+	--hover-button: #6a19cd;
+}
+
+body {
+	color: #000853 !important;
+	background: #f0eaf8 !important;
+	font-family: 'Inter', sans-serif !important;
+}
+
+.age-slider .m_c9ade57f::before {
+	background-color: #cbb6e5;
+}
+
+.custom-calendar .mantine-Calendar-weekday {
+	color: #000853;
+}
+.custom-calendar .m_396ce5cb {
+	font-size: 14px;
+}
+
+.custom-calendar .m_396ce5cb:where([data-weekend]) {
+	color: #000853;
+}
+.custom-calendar .m_396ce5cb:where([data-selected]) {
+	background-color: #6a19cd;
+	border-radius: 50%;
+	opacity: 1;
+	color: white;
+}
+.custom-calendar .m_396ce5cb:where([data-selected]):hover {
+	background-color: #6a19cd;
+	border-radius: 50%;
+}
